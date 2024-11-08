@@ -1,0 +1,15 @@
+C:\Users\quami\OneDrive\Bureau\CPI\MS-Travail-sur-les-fichiers\bin\Debug\net8.0\MS-Travail-sur-les-fichiers.exe
+C:\Users\quami\OneDrive\Bureau\CPI\MS-Travail-sur-les-fichiers\bin\Debug\net8.0\MS-Travail-sur-les-fichiers.deps.json
+C:\Users\quami\OneDrive\Bureau\CPI\MS-Travail-sur-les-fichiers\bin\Debug\net8.0\MS-Travail-sur-les-fichiers.runtimeconfig.json
+C:\Users\quami\OneDrive\Bureau\CPI\MS-Travail-sur-les-fichiers\bin\Debug\net8.0\MS-Travail-sur-les-fichiers.dll
+C:\Users\quami\OneDrive\Bureau\CPI\MS-Travail-sur-les-fichiers\bin\Debug\net8.0\MS-Travail-sur-les-fichiers.pdb
+C:\Users\quami\OneDrive\Bureau\CPI\MS-Travail-sur-les-fichiers\obj\Debug\net8.0\MS-Travail-sur-les-fichiers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quami\OneDrive\Bureau\CPI\MS-Travail-sur-les-fichiers\obj\Debug\net8.0\MS-Travail-sur-les-fichiers.AssemblyInfoInputs.cache
+C:\Users\quami\OneDrive\Bureau\CPI\MS-Travail-sur-les-fichiers\obj\Debug\net8.0\MS-Travail-sur-les-fichiers.AssemblyInfo.cs
+C:\Users\quami\OneDrive\Bureau\CPI\MS-Travail-sur-les-fichiers\obj\Debug\net8.0\MS-Travail-sur-les-fichiers.csproj.CoreCompileInputs.cache
+C:\Users\quami\OneDrive\Bureau\CPI\MS-Travail-sur-les-fichiers\obj\Debug\net8.0\MS-Travail-sur-les-fichiers.sourcelink.json
+C:\Users\quami\OneDrive\Bureau\CPI\MS-Travail-sur-les-fichiers\obj\Debug\net8.0\MS-Travail-sur-les-fichiers.dll
+C:\Users\quami\OneDrive\Bureau\CPI\MS-Travail-sur-les-fichiers\obj\Debug\net8.0\refint\MS-Travail-sur-les-fichiers.dll
+C:\Users\quami\OneDrive\Bureau\CPI\MS-Travail-sur-les-fichiers\obj\Debug\net8.0\MS-Travail-sur-les-fichiers.pdb
+C:\Users\quami\OneDrive\Bureau\CPI\MS-Travail-sur-les-fichiers\obj\Debug\net8.0\MS-Travail-sur-les-fichiers.genruntimeconfig.cache
+C:\Users\quami\OneDrive\Bureau\CPI\MS-Travail-sur-les-fichiers\obj\Debug\net8.0\ref\MS-Travail-sur-les-fichiers.dll
