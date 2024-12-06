@@ -28,15 +28,6 @@ Pour exécuter ce programme, vous devez disposer des éléments suivants :
 
 ---
 
-
-## 🛠️ **Structure du code**
-Le projet est organisé pour faciliter la navigation et la maintenance :
-
-- **bin/** : Contient l'exécutable principal (`MS_Travail_Fichiers.exe`).
-- **src/** : Comprend les fichiers sources du programme (code en C ou autre langage utilisé).
-- **data/** : Regroupe les fichiers binaires et autres ressources nécessaires au fonctionnement (par exemple `clients.bin` et `clients_deleted.bin`).
-- **docs/** : Contient la documentation et les éventuels fichiers d'aide pour les utilisateurs.
-
 ### Diagramme de fonctionnement du programme
 ```
 +---------------------------+
