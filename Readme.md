@@ -2,7 +2,7 @@
 # **MS - Travail sur les fichiers**
 
 ## 🖋️ Description
-Ce programme est une application conviviale qui vous permet d'effectuer diverses opérations sur des fichiers, telles que la gestion de fiches clients, la modification et la suppression de données, le tout via une interface en ligne de commande simple et interactive.
+Ce programme est une application qui permet d’effectuer différentes opérations sur des fichiers. Il a été conçu dans le cadre d'un projet éducatif et est destiné à montrer des fonctionnalités comme la manipulation de fichiers, la gestion des erreurs, et l'affichage de résultats en fonction des données d’entrée
 
 ## ✅ **Prérequis**
 Pour exécuter ce programme, vous devez disposer des éléments suivants :
