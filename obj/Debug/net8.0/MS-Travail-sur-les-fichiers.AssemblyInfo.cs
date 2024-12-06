@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MS-Travail-sur-les-fichiers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cbcc68a74d7ef862a1344c59c8ee1b85491496d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88a1930694dadfa579c31a8096347c8deebb89e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("MS-Travail-sur-les-fichiers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MS-Travail-sur-les-fichiers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
