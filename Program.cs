@@ -125,7 +125,7 @@ public class GestionClients
                 string prenom = reader.ReadString();
                 string numeroTelephone = reader.ReadString();
 
-                if (nom == nomRecherche)
+                if (nom.Equals(nomRecherche, StringComparison.OrdinalIgnoreCase))
                 {
                     Console.WriteLine($"\nFiche {index} : ID={clientId}, Nom={nom}, Prénom={prenom}, Téléphone={numeroTelephone}");
                     found = true;
@@ -135,7 +135,7 @@ public class GestionClients
 
             if (!found)
             {
-                Console.WriteLine("Aucun client trouvé avec ce nom.");
+                Console.WriteLine($"Aucun client trouvé avec le nom : {nomRecherche}");
             }
         }
     }
