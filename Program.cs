@@ -188,10 +188,15 @@ public class GestionClients
     public static void ModifierClient()
     {
         Console.Write("Entrez le numéro de la fiche du client à modifier : ");
-        int ficheNum = int.Parse(Console.ReadLine());
+        if (!int.TryParse(Console.ReadLine(), out int ficheNum) || ficheNum <= 0)
+        {
+            Console.WriteLine("Numéro de fiche invalide.");
+            return;
+        }
 
         List<Client> clients = new List<Client>();
 
+        // Lecture des clients depuis le fichier binaire(OpenOrCreate)
         using (BinaryReader reader = new BinaryReader(File.Open("clients.bin", FileMode.OpenOrCreate)))
         {
             while (reader.BaseStream.Position != reader.BaseStream.Length)
@@ -205,38 +210,43 @@ public class GestionClients
             }
         }
 
-        if (ficheNum <= 0 || ficheNum > clients.Count)
+        if (ficheNum > clients.Count)
         {
             Console.WriteLine("Fiche non trouvée.");
             return;
         }
 
+        // Afficher les informations actuelles de la fiche
         Client client = clients[ficheNum - 1];
-        Console.WriteLine($"Client actuel: ID={client.ClientID}, Nom={client.Nom}, Prénom={client.Prenom}, Téléphone={client.NumeroTelephone}");
+        Console.WriteLine($"Client actuel :\nID = {client.ClientID}\nNom = {client.Nom}\nPrénom = {client.Prenom}\nTéléphone = {client.NumeroTelephone}");
+        Console.WriteLine("Appuyez sur Entrée pour conserver la valeur actuelle.");
 
+        // Demander les nouvelles informations
         Console.Write("Nouveau nom (laisser vide pour conserver) : ");
-        string nouveauNom = Console.ReadLine();
+        string nouveauNom = Console.ReadLine()?.Trim();
         if (!string.IsNullOrWhiteSpace(nouveauNom))
         {
             client.Nom = Majuscule(nouveauNom);
         }
 
         Console.Write("Nouveau prénom (laisser vide pour conserver) : ");
-        string nouveauPrenom = Console.ReadLine();
+        string nouveauPrenom = Console.ReadLine()?.Trim();
         if (!string.IsNullOrWhiteSpace(nouveauPrenom))
         {
             client.Prenom = FirstMajuscule(nouveauPrenom);
         }
 
         Console.Write("Nouveau numéro de téléphone (laisser vide pour conserver) : ");
-        string nouveauTelephone = Console.ReadLine();
+        string nouveauTelephone = Console.ReadLine()?.Trim();
         if (!string.IsNullOrWhiteSpace(nouveauTelephone))
         {
             client.NumeroTelephone = nouveauTelephone;
         }
 
+        // Mise à jour de la fiche
         clients[ficheNum - 1] = client;
 
+        // Réécriture du fichier avec les données mises à jour(Create)
         using (BinaryWriter writer = new BinaryWriter(File.Open("clients.bin", FileMode.Create)))
         {
             foreach (var c in clients)
